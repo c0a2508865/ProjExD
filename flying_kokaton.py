@@ -30,7 +30,7 @@ def main():
         if key_lst[pg.K_LEFT]:  # 左矢印キーが押されたら
             vx -= 1             # X方向の移動量を「さらに左」へ増やす
         if key_lst[pg.K_RIGHT]: # 右矢印キーが押されたら
-            vx += 1
+            vx += 2
 
         kk_rct.move_ip(vx, vy)
 
